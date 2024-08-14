@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/ext/googletest/googlemock/include -isystem /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/ext/googletest/googlemock -isystem /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/ext/googletest/googletest/include -isystem /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/ext/googletest/googletest
+CXX_INCLUDES = -isystem /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/ext/googletest/googlemock/include -isystem /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/ext/googletest/googlemock -isystem /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/ext/googletest/googletest/include -isystem /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/ext/googletest/googletest
 
 CXX_FLAGS = -std=c++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk  -DGTEST_HAS_PTHREAD=1  
 

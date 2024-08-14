@@ -54,10 +54,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++
+CMAKE_SOURCE_DIR = /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build
+CMAKE_BINARY_DIR = /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,6 +73,7 @@ preinstall: ext/googletest/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/runUnitTests.dir/clean
+clean: CMakeFiles/run.dir/clean
 clean: ext/googletest/clean
 .PHONY : clean
 
@@ -135,14 +136,14 @@ CMakeFiles/runUnitTests.dir/all: ext/googletest/googletest/CMakeFiles/gtest.dir/
 CMakeFiles/runUnitTests.dir/all: ext/googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles --progress-num=9,10,11 "Built target runUnitTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles --progress-num=9,10,11 "Built target runUnitTests"
 .PHONY : CMakeFiles/runUnitTests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runUnitTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runUnitTests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 0
 .PHONY : CMakeFiles/runUnitTests.dir/rule
 
 # Convenience name for target.
@@ -155,20 +156,46 @@ CMakeFiles/runUnitTests.dir/clean:
 .PHONY : CMakeFiles/runUnitTests.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/run.dir
+
+# All Build rule for target.
+CMakeFiles/run.dir/all: CMakeFiles/runUnitTests.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles --progress-num= "Built target run"
+.PHONY : CMakeFiles/run.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/run.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 0
+.PHONY : CMakeFiles/run.dir/rule
+
+# Convenience name for target.
+run: CMakeFiles/run.dir/rule
+.PHONY : run
+
+# clean rule for target.
+CMakeFiles/run.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/clean
+.PHONY : CMakeFiles/run.dir/clean
+
+#=============================================================================
 # Target rules for target ext/googletest/googlemock/CMakeFiles/gmock.dir
 
 # All Build rule for target.
 ext/googletest/googlemock/CMakeFiles/gmock.dir/all: ext/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f ext/googletest/googlemock/CMakeFiles/gmock.dir/build.make ext/googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext/googletest/googlemock/CMakeFiles/gmock.dir/build.make ext/googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles --progress-num=1,2 "Built target gmock"
 .PHONY : ext/googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 ext/googletest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/googletest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 0
 .PHONY : ext/googletest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -188,14 +215,14 @@ ext/googletest/googlemock/CMakeFiles/gmock_main.dir/all: ext/googletest/googlemo
 ext/googletest/googlemock/CMakeFiles/gmock_main.dir/all: ext/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f ext/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make ext/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make ext/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
 .PHONY : ext/googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 ext/googletest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/googletest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 0
 .PHONY : ext/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -214,14 +241,14 @@ ext/googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 ext/googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f ext/googletest/googletest/CMakeFiles/gtest.dir/build.make ext/googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext/googletest/googletest/CMakeFiles/gtest.dir/build.make ext/googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles --progress-num=5,6 "Built target gtest"
 .PHONY : ext/googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 ext/googletest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 0
 .PHONY : ext/googletest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -240,14 +267,14 @@ ext/googletest/googletest/CMakeFiles/gtest.dir/clean:
 ext/googletest/googletest/CMakeFiles/gtest_main.dir/all: ext/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f ext/googletest/googletest/CMakeFiles/gtest_main.dir/build.make ext/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext/googletest/googletest/CMakeFiles/gtest_main.dir/build.make ext/googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
 .PHONY : ext/googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 ext/googletest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 0
 .PHONY : ext/googletest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

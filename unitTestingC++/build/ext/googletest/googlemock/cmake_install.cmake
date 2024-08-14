@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/ext/googletest/googlemock
+# Install script for directory: /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/ext/googletest/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,11 +38,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/ext/googletest/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/ext/googletest/googlemock/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/lib/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/lib/libgmock.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock.a")
     execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock.a")
@@ -50,7 +50,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/lib/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/lib/libgmock_main.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock_main.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock_main.a")
     execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock_main.a")
@@ -58,16 +58,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/ext/googletest/googletest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/ext/googletest/googletest/generated/gmock.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/ext/googletest/googletest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/ext/googletest/googletest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/ext/googletest/googletest/cmake_install.cmake")
+  include("/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/ext/googletest/googletest/cmake_install.cmake")
 
 endif()
 

@@ -57,10 +57,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++
+CMAKE_SOURCE_DIR = /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build
+CMAKE_BINARY_DIR = /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -183,6 +183,19 @@ runUnitTests: cmake_check_build_system
 runUnitTests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/build
 .PHONY : runUnitTests/fast
+
+#=============================================================================
+# Target rules for targets named run
+
+# Build rule for target.
+run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run
+.PHONY : run
+
+# fast build rule for target.
+run/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
+.PHONY : run/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -297,6 +310,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... run"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

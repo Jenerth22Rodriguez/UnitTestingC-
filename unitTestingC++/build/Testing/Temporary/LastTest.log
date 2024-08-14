@@ -1,50 +1,50 @@
-Start testing: Aug 13 15:59 EDT
+Start testing: Aug 14 12:32 EDT
 ----------------------------------------------------------
 1/1 Testing: UnitTests
 1/1 Test: UnitTests
-Command: "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build/runUnitTests"
-Directory: /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/build
-"UnitTests" start time: Aug 13 15:59 EDT
+Command: "/Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build/runUnitTests" "--gtest_color=yes"
+Directory: /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/build
+"UnitTests" start time: Aug 14 12:32 EDT
 Output:
 ----------------------------------------------------------
-Running main() from /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/unitTestingC++/ext/googletest/googletest/src/gtest_main.cc
-[==========] Running 7 tests from 4 test suites.
-[----------] Global test environment set-up.
-[----------] 2 tests from sum
-[ RUN      ] sum.test
-[       OK ] sum.test (0 ms)
-[ RUN      ] sum.Zero
-[       OK ] sum.Zero (0 ms)
-[----------] 2 tests from sum (0 ms total)
+Running main() from /Users/jenerthrodriguez/Library/CloudStorage/OneDrive-UniversityofLouisville/C++/UnitTestingC-/unitTestingC++/ext/googletest/googletest/src/gtest_main.cc
+[0;32m[==========] [mRunning 7 tests from 4 test suites.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from sum
+[0;32m[ RUN      ] [msum.test
+[0;32m[       OK ] [msum.test (0 ms)
+[0;32m[ RUN      ] [msum.Zero
+[0;32m[       OK ] [msum.Zero (0 ms)
+[0;32m[----------] [m2 tests from sum (0 ms total)
 
-[----------] 1 test from subs
-[ RUN      ] subs.test
-[       OK ] subs.test (0 ms)
-[----------] 1 test from subs (0 ms total)
+[0;32m[----------] [m1 test from subs
+[0;32m[ RUN      ] [msubs.test
+[0;32m[       OK ] [msubs.test (0 ms)
+[0;32m[----------] [m1 test from subs (0 ms total)
 
-[----------] 2 tests from divide
-[ RUN      ] divide.test
-[       OK ] divide.test (0 ms)
-[ RUN      ] divide.DivisionByZero
-[       OK ] divide.DivisionByZero (0 ms)
-[----------] 2 tests from divide (0 ms total)
+[0;32m[----------] [m2 tests from divide
+[0;32m[ RUN      ] [mdivide.test
+[0;32m[       OK ] [mdivide.test (0 ms)
+[0;32m[ RUN      ] [mdivide.DivisionByZero
+[0;32m[       OK ] [mdivide.DivisionByZero (0 ms)
+[0;32m[----------] [m2 tests from divide (0 ms total)
 
-[----------] 2 tests from isAnagram
-[ RUN      ] isAnagram.PositiveCase
-[       OK ] isAnagram.PositiveCase (0 ms)
-[ RUN      ] isAnagram.NegativeCase
-[       OK ] isAnagram.NegativeCase (0 ms)
-[----------] 2 tests from isAnagram (0 ms total)
+[0;32m[----------] [m2 tests from isAnagram
+[0;32m[ RUN      ] [misAnagram.PositiveCase
+[0;32m[       OK ] [misAnagram.PositiveCase (0 ms)
+[0;32m[ RUN      ] [misAnagram.NegativeCase
+[0;32m[       OK ] [misAnagram.NegativeCase (0 ms)
+[0;32m[----------] [m2 tests from isAnagram (0 ms total)
 
-[----------] Global test environment tear-down
-[==========] 7 tests from 4 test suites ran. (0 ms total)
-[  PASSED  ] 7 tests.
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m7 tests from 4 test suites ran. (0 ms total)
+[0;32m[  PASSED  ] [m7 tests.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"UnitTests" end time: Aug 13 15:59 EDT
+"UnitTests" end time: Aug 14 12:32 EDT
 "UnitTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 13 15:59 EDT
+End testing: Aug 14 12:32 EDT
